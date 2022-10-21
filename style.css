@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-size: cover;
+}
+
+.pfp {
+    height: auto;
+    clip-path: circle();
+}
+
+.box {
+    width: 450;
+    background: transparent;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin: 10%;
+    color: white;
+    font-family:monospace;
+}
+
+.box h1 {
+    font-size: 35px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.box h5 {
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+ul{
+    margin: 0;
+    padding: 0
+}
+
+.box li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.box li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
